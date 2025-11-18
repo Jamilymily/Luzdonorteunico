@@ -1,3 +1,9 @@
+/* Essa parte basicamente, coloca a fonte, tira margem e aplica o fundo degradê,
+o menu deixa os links centralizados, como fundo rosa e fixo no topo,
+os likns do menu mudam de cor no hover e quando estão ativos,
+as seções começam escondidas, e soó aparece quando h=ganham a classe ativa
+a anaimação fadeIn faz a seção surgir sua, os títulos têm tamanhos grandes espaçamento ajustado*/
+
 body{
     margin:0;
     font-family:'roboto', sans-serif;
@@ -98,108 +104,4 @@ to{opacity:1;}
     gap:20px;
     margin-top:20px;
     padding: 10px;
-}
-
-.kit-card {
-    background: rgba(255, 210, 74, 0.25);
-    padding: 30px;
-    border-radius: 20px;
-    max-width: 500px;
-    width: 260px;
-    text-align: center;
-    font-weight: 600;
-    transition: transform 0.3s, background 0.3s;
-    cursor: default;
-}
-
-.kit-card:hover{
-    transform: scale(1.05);
-    background: rgba(255,0,122,0.20);
-}
-
-.kit-card h3{
-    font-size:2em;
-    margin-bottom:15px;
-}
-
-.kit-card p{
-    font-size: 1.2em;
-    line-height: 1.8;
-}
-
-.formulario{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    max-width:400px;
-    margin:0 auto 20px;
-}
-
-.formulario input{
-    width:100%;
-    padding:14px;
-    margin:10px 0;
-    border-radius:10px;
-    border:none;
-    font-size: 1em;
-}
-
-.botoes-form{
-    display: flex;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-
-
-/*Estilos para a mensagem de agradecimento*/
-
-.mensagem-agradecimento{
-    display: none;
-    background: rgba(255,255,255,0.15);
-    padding:30px;
-    border-radius:20px;
-    max-width:600px;
-    margin:20px auto;
-    text-align: center;
-}
-
-.mensagem-agradecimento p{
-    font-size: 1.2em;
-    margin-bottom:20px;
-}
-
-.mensagem-agradecimento{
-    display: block;
-    animation:fadeIn 0.6s ease;
-}
-
-/*Estilos para a seção de contato*/
-
-.info-contato{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:40px;
-    max-width:800px;
-    margin:0 auto;
-}
-
-.local-doacao, .contato-info{
-    background:rgba(255, 255, 255, 0.15);
-    padding:30px;
-    border-radius:20px;
-    width: 100%;
-    max-width:500px;
-    text-align:center;
-}
-
-.local-doacao h3, .conatato-info h3{
-    font-size:1.8em;
-    margin-bottom:20px;
-    color:#fffacd;
-}
-
-.local-doacao p, .contato-info p{
-    font-size: 1.2em;
-    line-height:1.6;
 }
