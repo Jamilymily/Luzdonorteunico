@@ -1,3 +1,10 @@
+/*Professor, esta foi uma das páginas mais complexas de desenvolver.
+Tanto eu quanto a Ana não temos experiência com JavaScript e, para que tudo
+funcionasse corretamente, foi necessário adicioná-lo ao projeto. Isso acontece porque
+o HTML, por si só, não consegue ocultar uma <section> e exibir outra ao clicar em um
+botão- essa lógica é justamente o que o Java realiza. Sem ele, todas as páginas apareceriam na tela ao mesmo tempo.
+Além disso, ainda tivemos dificuldades para ajustar a parte do voluntário: na mensagem!*/
+
 document.addEventListener('DOMContentLoaded', ()=>{
 
 const links= document.querySelectorAll('.menu a, .botao');
